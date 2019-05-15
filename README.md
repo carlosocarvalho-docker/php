@@ -9,8 +9,8 @@
 
 ### Frameworks support
 
-<img src="https://img.shields.io/badge/Laravel-5>=-red.svg?style=flat-square"></a>
-<img src="https://img.shields.io/badge/Codeigniter-3>=-red.svg?style=flat-square"></a>
+<img src="https://img.shields.io/badge/Laravel- >=5-red.svg?style=flat-square"></a>
+<img src="https://img.shields.io/badge/Codeigniter- 3 -red.svg?style=flat-square"></a>
 
 ### Use with docker swarm file-compose 
 
