@@ -1,4 +1,4 @@
-FROM carlosocarvalho/php73-cli
+FROM carlosocarvalho/php73-cli:1.0.3
 
 RUN export DEBIAN_FRONTEND=noninteractive \
     && apt-get update \

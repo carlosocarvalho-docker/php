@@ -1,4 +1,4 @@
-FROM carlosocarvalho/php73-fpm:dev
+FROM carlosocarvalho/php73-fpm:1.0.3
 #carlosocarvalho/php73-fpm:latest
 
 WORKDIR "/application"
