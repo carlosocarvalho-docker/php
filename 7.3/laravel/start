@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+set -e
+
+role=${CONTAINER_ROLE:none}
+env=${APP_ENV:-production}
+
+if [ "$env" != "local" ]; then
+    echo "Caching configuration..."
+    php /application/artisan cache:clear
+fi
+
+if [ "$role" = "queue" ]; then
+    echo "Running the queue..."
+    php /application/artisan queue:work --verbose --tries=3 --timeout=90
+    exit 1
+fi
+
+if [ "$role" = "scheduler" ]; then
+    while [ true ]
+    do
+      php /application/artisan schedule:run --verbose --no-interaction &
+      sleep 60
+    done
+    exit 1
+fi
