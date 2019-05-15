@@ -1,14 +1,18 @@
-## PHP 7.3 docker suporte
+## PHP 7.3 docker support
 
-### Drivers database suporte
+### Drivers database support
 
-<img src="https://img.shields.io/badge/Driver_For-Sql_Server_13-yellow.svg?style=flat-square"></a>
-<img src="https://img.shields.io/badge/Driver_For-Mongo_DB-yellow.svg?style=flat-square"></a>
-<img src="https://img.shields.io/badge/Driver_For-MySQL_| Mariadb-yellow.svg?style=flat-square"></a>
-<img src="https://img.shields.io/badge/Driver_For-Redis-yellow.svg?style=flat-square"></a>
+<img src="https://img.shields.io/badge/Driver_For-Sql_Server_13-green.svg?style=flat-square"></a>
+<img src="https://img.shields.io/badge/Driver_For-Mongo_DB-green.svg?style=flat-square"></a>
+<img src="https://img.shields.io/badge/Driver_For-MySQL_| Mariadb-green.svg?style=flat-square"></a>
+<img src="https://img.shields.io/badge/Driver_For-Redis-green.svg?style=flat-square"></a>
 
+### Frameworks support
 
-### User docker swarm file-compose 
+<img src="https://img.shields.io/badge/Laravel-5>=-red.svg?style=flat-square"></a>
+<img src="https://img.shields.io/badge/Codeigniter-3>=-red.svg?style=flat-square"></a>
+
+### Use with docker swarm file-compose 
 
 For use this exemple with **docker-compose** check guide from docker.
 
