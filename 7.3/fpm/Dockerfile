@@ -12,6 +12,9 @@ COPY overrides.conf /etc/php/7.3/fpm/pool.d/z-overrides.conf
 # PHP-FPM has really dirty logs, certainly not good for dockerising
 # The following startup script contains some magic to clean these up
 COPY fpm-startup /usr/bin/php-fpm
+
+RUN chmod u+x /usr/bin/php-fpm
+
 CMD /usr/bin/php-fpm
 
 # Open up fcgi port
